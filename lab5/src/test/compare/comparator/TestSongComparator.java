@@ -15,6 +15,13 @@ public class TestSongComparator {
 
         Song[] songs = {thriftShop, happy, irreplaceable};
 
+        System.out.println("SORTED BY YEAR: ");
+        SongYearComparator yearCompare = new SongYearComparator();
+        Arrays.sort(songs, yearCompare);
+        for (Song song : songs) {
+            System.out.println("\t" + song.getName() + "-" + song.getYear());
+        }
+
         System.out.println("SORTED BY RATING: ");
         SongRatingComparator ratingCompare = new SongRatingComparator();
         Arrays.sort(songs, ratingCompare);
