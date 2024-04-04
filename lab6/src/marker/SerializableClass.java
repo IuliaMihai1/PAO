@@ -1,6 +1,8 @@
 package marker;
 
-public class SerializableClass{
+import java.io.Serializable;
+
+public class SerializableClass implements Serializable {
     String field1;
     int field2;
 

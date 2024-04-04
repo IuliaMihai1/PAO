@@ -7,7 +7,7 @@ package enums;
 public enum Season {
     WINTER("Low"), SPRING("Medium"), SUMMER("High"), FALL("Medium");
 
-    // variabila de instanta (private final - ca proprietatile enumerarii sa nu poata fi modificare)
+    // variabila de instanta (private final - ca proprietatile enumerarii sa nu poata fi modificate)
     private final String expectedVisitors;
 
 
