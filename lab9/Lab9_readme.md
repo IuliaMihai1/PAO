@@ -13,14 +13,14 @@
         ```
   
   * Se downloadeaza jar-ul necesar si se adauga ca si librarie pentru proiect in Intellij:
-![](C:\WORK\PAO\lab9\Add_mysql_connector_as_library.png)
+![Add_mysql_connector_as_library.png](Add_mysql_connector_as_library.png)
 * Creare baza de date (din MySQL Workbench): `create database lab9;`
 * Creare tabela si procedura stocata in DataSetup.java
 
 
 # Colectii
 
-![](C:\WORK\PAO\lab9\Colectii.png)
+![Colectii.png](Colectii.png)
 Exista patru interfente principale in Java Collections framework:
 * **List**: colectie de elemente ordonate, accesibile printr-un int index 
 * **Set**: colectie de elemente unice (fara duplicate)
