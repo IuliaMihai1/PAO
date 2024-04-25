@@ -4,13 +4,13 @@
 * Download & Install Mysql: https://dev.mysql.com/downloads/installer/
 * Inregistrare JDBC driver pentru a putea realiza conexiunea la baza de date, folosind una din urmatoarele optiuni:
   * Utilizinad Maven, se adauga dependenta necesara (https://mvnrepository.com/artifact/com.mysql/mysql-connector-j) in fisierul pom.xml
-        ```java
+  ```java
           <dependency>
             <groupId>com.mysql</groupId>
             <artifactId>mysql-connector-j</artifactId>
             <version>8.3.0</version>
           </dependency>
-        ```
+  ```
   
   * Se downloadeaza jar-ul necesar si se adauga ca si librarie pentru proiect in Intellij:
 ![Add_mysql_connector_as_library.png](Add_mysql_connector_as_library.png)
